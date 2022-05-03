@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5197989281C2D500032DF51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5197988281C2D500032DF51 /* AppDelegate.swift */; };
+		A519798B281C2D500032DF51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519798A281C2D500032DF51 /* SceneDelegate.swift */; };
+		A519798D281C2D500032DF51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519798C281C2D500032DF51 /* ViewController.swift */; };
+		A5197990281C2D500032DF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A519798E281C2D500032DF51 /* Main.storyboard */; };
+		A5197992281C2D510032DF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5197991281C2D510032DF51 /* Assets.xcassets */; };
+		A5197995281C2D510032DF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5197993281C2D510032DF51 /* LaunchScreen.storyboard */; };
+		A51979A0281C2D510032DF51 /* BoynerAppTasarimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519799F281C2D510032DF51 /* BoynerAppTasarimTests.swift */; };
+		A51979AA281C2D510032DF51 /* BoynerAppTasarimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51979A9281C2D510032DF51 /* BoynerAppTasarimUITests.swift */; };
+		A51979AC281C2D510032DF51 /* BoynerAppTasarimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51979AB281C2D510032DF51 /* BoynerAppTasarimUITestsLaunchTests.swift */; };
+		A5C6637328211E950095F9B6 /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C6637228211E950095F9B6 /* ColumnFlowLayout.swift */; };
+		A5C66375282126A50095F9B6 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C66374282126A50095F9B6 /* ProductCollectionViewCell.swift */; };
+		A5C66377282127DD0095F9B6 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C66376282127DD0095F9B6 /* ProductModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A519799C281C2D510032DF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A519797D281C2D500032DF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5197984281C2D500032DF51;
+			remoteInfo = BoynerAppTasarim;
+		};
+		A51979A6281C2D510032DF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A519797D281C2D500032DF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5197984281C2D500032DF51;
+			remoteInfo = BoynerAppTasarim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5197985281C2D500032DF51 /* BoynerAppTasarim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoynerAppTasarim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5197988281C2D500032DF51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A519798A281C2D500032DF51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A519798C281C2D500032DF51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A519798F281C2D500032DF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5197991281C2D510032DF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5197994281C2D510032DF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5197996281C2D510032DF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A519799B281C2D510032DF51 /* BoynerAppTasarimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoynerAppTasarimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A519799F281C2D510032DF51 /* BoynerAppTasarimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoynerAppTasarimTests.swift; sourceTree = "<group>"; };
+		A51979A5281C2D510032DF51 /* BoynerAppTasarimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoynerAppTasarimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51979A9281C2D510032DF51 /* BoynerAppTasarimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoynerAppTasarimUITests.swift; sourceTree = "<group>"; };
+		A51979AB281C2D510032DF51 /* BoynerAppTasarimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoynerAppTasarimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5C6637228211E950095F9B6 /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
+		A5C66374282126A50095F9B6 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		A5C66376282127DD0095F9B6 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5197982281C2D500032DF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5197998281C2D510032DF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51979A2281C2D510032DF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A519797C281C2D500032DF51 = {
+			isa = PBXGroup;
+			children = (
+				A5197987281C2D500032DF51 /* BoynerAppTasarim */,
+				A519799E281C2D510032DF51 /* BoynerAppTasarimTests */,
+				A51979A8281C2D510032DF51 /* BoynerAppTasarimUITests */,
+				A5197986281C2D500032DF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5197986281C2D500032DF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5197985281C2D500032DF51 /* BoynerAppTasarim.app */,
+				A519799B281C2D510032DF51 /* BoynerAppTasarimTests.xctest */,
+				A51979A5281C2D510032DF51 /* BoynerAppTasarimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5197987281C2D500032DF51 /* BoynerAppTasarim */ = {
+			isa = PBXGroup;
+			children = (
+				A5197988281C2D500032DF51 /* AppDelegate.swift */,
+				A519798A281C2D500032DF51 /* SceneDelegate.swift */,
+				A5C66376282127DD0095F9B6 /* ProductModel.swift */,
+				A519798C281C2D500032DF51 /* ViewController.swift */,
+				A5C66374282126A50095F9B6 /* ProductCollectionViewCell.swift */,
+				A519798E281C2D500032DF51 /* Main.storyboard */,
+				A5197991281C2D510032DF51 /* Assets.xcassets */,
+				A5197993281C2D510032DF51 /* LaunchScreen.storyboard */,
+				A5197996281C2D510032DF51 /* Info.plist */,
+				A5C6637228211E950095F9B6 /* ColumnFlowLayout.swift */,
+			);
+			path = BoynerAppTasarim;
+			sourceTree = "<group>";
+		};
+		A519799E281C2D510032DF51 /* BoynerAppTasarimTests */ = {
+			isa = PBXGroup;
+			children = (
+				A519799F281C2D510032DF51 /* BoynerAppTasarimTests.swift */,
+			);
+			path = BoynerAppTasarimTests;
+			sourceTree = "<group>";
+		};
+		A51979A8281C2D510032DF51 /* BoynerAppTasarimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A51979A9281C2D510032DF51 /* BoynerAppTasarimUITests.swift */,
+				A51979AB281C2D510032DF51 /* BoynerAppTasarimUITestsLaunchTests.swift */,
+			);
+			path = BoynerAppTasarimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5197984281C2D500032DF51 /* BoynerAppTasarim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51979AF281C2D510032DF51 /* Build configuration list for PBXNativeTarget "BoynerAppTasarim" */;
+			buildPhases = (
+				A5197981281C2D500032DF51 /* Sources */,
+				A5197982281C2D500032DF51 /* Frameworks */,
+				A5197983281C2D500032DF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoynerAppTasarim;
+			productName = BoynerAppTasarim;
+			productReference = A5197985281C2D500032DF51 /* BoynerAppTasarim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A519799A281C2D510032DF51 /* BoynerAppTasarimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51979B2281C2D510032DF51 /* Build configuration list for PBXNativeTarget "BoynerAppTasarimTests" */;
+			buildPhases = (
+				A5197997281C2D510032DF51 /* Sources */,
+				A5197998281C2D510032DF51 /* Frameworks */,
+				A5197999281C2D510032DF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A519799D281C2D510032DF51 /* PBXTargetDependency */,
+			);
+			name = BoynerAppTasarimTests;
+			productName = BoynerAppTasarimTests;
+			productReference = A519799B281C2D510032DF51 /* BoynerAppTasarimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A51979A4281C2D510032DF51 /* BoynerAppTasarimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51979B5281C2D510032DF51 /* Build configuration list for PBXNativeTarget "BoynerAppTasarimUITests" */;
+			buildPhases = (
+				A51979A1281C2D510032DF51 /* Sources */,
+				A51979A2281C2D510032DF51 /* Frameworks */,
+				A51979A3281C2D510032DF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51979A7281C2D510032DF51 /* PBXTargetDependency */,
+			);
+			name = BoynerAppTasarimUITests;
+			productName = BoynerAppTasarimUITests;
+			productReference = A51979A5281C2D510032DF51 /* BoynerAppTasarimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A519797D281C2D500032DF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A5197984281C2D500032DF51 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					A519799A281C2D510032DF51 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A5197984281C2D500032DF51;
+					};
+					A51979A4281C2D510032DF51 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A5197984281C2D500032DF51;
+					};
+				};
+			};
+			buildConfigurationList = A5197980281C2D500032DF51 /* Build configuration list for PBXProject "BoynerAppTasarim" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A519797C281C2D500032DF51;
+			productRefGroup = A5197986281C2D500032DF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5197984281C2D500032DF51 /* BoynerAppTasarim */,
+				A519799A281C2D510032DF51 /* BoynerAppTasarimTests */,
+				A51979A4281C2D510032DF51 /* BoynerAppTasarimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5197983281C2D500032DF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5197995281C2D510032DF51 /* LaunchScreen.storyboard in Resources */,
+				A5197992281C2D510032DF51 /* Assets.xcassets in Resources */,
+				A5197990281C2D500032DF51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5197999281C2D510032DF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51979A3281C2D510032DF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5197981281C2D500032DF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A519798D281C2D500032DF51 /* ViewController.swift in Sources */,
+				A5C66377282127DD0095F9B6 /* ProductModel.swift in Sources */,
+				A5C6637328211E950095F9B6 /* ColumnFlowLayout.swift in Sources */,
+				A5C66375282126A50095F9B6 /* ProductCollectionViewCell.swift in Sources */,
+				A5197989281C2D500032DF51 /* AppDelegate.swift in Sources */,
+				A519798B281C2D500032DF51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5197997281C2D510032DF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51979A0281C2D510032DF51 /* BoynerAppTasarimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51979A1281C2D510032DF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51979AA281C2D510032DF51 /* BoynerAppTasarimUITests.swift in Sources */,
+				A51979AC281C2D510032DF51 /* BoynerAppTasarimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A519799D281C2D510032DF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5197984281C2D500032DF51 /* BoynerAppTasarim */;
+			targetProxy = A519799C281C2D510032DF51 /* PBXContainerItemProxy */;
+		};
+		A51979A7281C2D510032DF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5197984281C2D500032DF51 /* BoynerAppTasarim */;
+			targetProxy = A51979A6281C2D510032DF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A519798E281C2D500032DF51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A519798F281C2D500032DF51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5197993281C2D510032DF51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5197994281C2D510032DF51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A51979AD281C2D510032DF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A51979AE281C2D510032DF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51979B0281C2D510032DF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoynerAppTasarim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.BoynerAppTasarim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A51979B1281C2D510032DF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoynerAppTasarim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.BoynerAppTasarim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A51979B3281C2D510032DF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.BoynerAppTasarimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoynerAppTasarim.app/BoynerAppTasarim";
+			};
+			name = Debug;
+		};
+		A51979B4281C2D510032DF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.BoynerAppTasarimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoynerAppTasarim.app/BoynerAppTasarim";
+			};
+			name = Release;
+		};
+		A51979B6281C2D510032DF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.BoynerAppTasarimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoynerAppTasarim;
+			};
+			name = Debug;
+		};
+		A51979B7281C2D510032DF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.BoynerAppTasarimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoynerAppTasarim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5197980281C2D500032DF51 /* Build configuration list for PBXProject "BoynerAppTasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51979AD281C2D510032DF51 /* Debug */,
+				A51979AE281C2D510032DF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51979AF281C2D510032DF51 /* Build configuration list for PBXNativeTarget "BoynerAppTasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51979B0281C2D510032DF51 /* Debug */,
+				A51979B1281C2D510032DF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51979B2281C2D510032DF51 /* Build configuration list for PBXNativeTarget "BoynerAppTasarimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51979B3281C2D510032DF51 /* Debug */,
+				A51979B4281C2D510032DF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51979B5281C2D510032DF51 /* Build configuration list for PBXNativeTarget "BoynerAppTasarimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51979B6281C2D510032DF51 /* Debug */,
+				A51979B7281C2D510032DF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A519797D281C2D500032DF51 /* Project object */;
+}
